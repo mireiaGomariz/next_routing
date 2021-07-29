@@ -3,10 +3,9 @@ import Link from 'next/link'
 function ProductList( { productId = 100}) {
   return (
   <>
-  <Link href="/">
-    <a>Home</a>
-  </Link>
-  
+    <Link href="/">
+      <a>Home</a>
+    </Link>
     <h2>
       <Link href="/product/1">
         <a>Product 1</a>
